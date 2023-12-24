@@ -7,7 +7,7 @@ Notes:
 - No way to have Broadcom card passed working for now (Crash VM when try to connect to wifi)
 
 - Need to modify GRUB to block out device IDs for passthrough
-- qemu runs as user/group `evdev` under
+- qemu runs as user/group `evdev` under `/etc/libvirt/qemu.conf`
 - kvm and libvirt added to `etc/security/limits.conf`
 
 Files Paths:
